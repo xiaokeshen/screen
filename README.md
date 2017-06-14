@@ -9,6 +9,9 @@ screen -r name
 # list all the screen  
 screen -ls
 
+# go back to the attached screen after reconnect to the server
+
+screen -D -r name  
 
 # PYTHON Simple http server
 
